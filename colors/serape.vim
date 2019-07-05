@@ -51,7 +51,7 @@ hi Error           ctermfg=15      ctermbg=9
 hi ErrorMsg        ctermfg=none    ctermbg=none
 hi WarningMsg      ctermfg=none    ctermbg=none
 hi Ignore          ctermfg=0       ctermbg=0
-hi SpecialKey      ctermfg=338     ctermbg=334
+hi SpecialKey      ctermfg=238     ctermbg=234
 
 " Variable type
 hi Constant        ctermfg=32      ctermbg=none

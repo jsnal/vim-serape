@@ -23,3 +23,9 @@ wget https://raw.githubusercontent.com/jsnal/vim-serape/master/colors/serape.vim
 ## Usage
 
 `:colorscheme serape`
+
+#### TODO
+
+* GUI Support
+* Highlight Options
+* Diff
