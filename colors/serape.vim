@@ -10,7 +10,7 @@ hi Normal          ctermfg=none    ctermbg=none
 hi Cursor          ctermfg=26      ctermbg=7
 hi CursorLine      ctermfg=235     ctermbg=none
 hi LineNr          ctermfg=245     ctermbg=none
-hi CursorLineNR    ctermfg=15      ctermbg=none
+hi CursorLineNR    ctermfg=15      ctermbg=none     cterm=bold
 
 " Number column
 hi CursorColumn    ctermfg=255     ctermbg=235      cterm=reverse
@@ -40,7 +40,7 @@ hi ModeMsg         ctermfg=15      ctermbg=none     cterm=bold
 hi MoreMsg         ctermfg=15      ctermbg=none     cterm=bold
 
 " Visual aid
-hi MatchParen      ctermfg=0       ctermbg=140
+hi MatchParen      ctermfg=15       ctermbg=140
 hi Visual          ctermfg=none    ctermbg=240
 hi VisualNOS       ctermfg=none    ctermbg=240
 hi NonText         ctermfg=245     ctermbg=none
@@ -62,8 +62,8 @@ hi Number          ctermfg=38      ctermbg=none     cterm=bold
 hi Boolean         ctermfg=32      ctermbg=none
 hi Float           ctermfg=38      ctermbg=none     cterm=bold
 
-hi Identifier      ctermfg=197     ctermbg=none     cterm=bold
-hi Function        ctermfg=199     ctermbg=none     cterm=bold
+hi Identifier      ctermfg=9     ctermbg=none     cterm=bold
+hi Function        ctermfg=147     ctermbg=none     cterm=bold
 
 " Language construct
 hi Statement       ctermfg=202     ctermbg=none     cterm=bold
@@ -83,7 +83,7 @@ hi SpecialComment  ctermfg=244     ctermbg=none
 hi Debug           ctermfg=214     ctermbg=none
 
 " C like
-hi PreProc         ctermfg=197     ctermbg=none     cterm=bold
+hi PreProc         ctermfg=196     ctermbg=none     cterm=bold
 hi Include         ctermfg=196     ctermbg=none     cterm=bold
 hi Define          ctermfg=196     ctermbg=none     cterm=bold
 hi Macro           ctermfg=196     ctermbg=none     cterm=bold
@@ -95,10 +95,10 @@ hi Structure       ctermfg=104     ctermbg=none     cterm=bold
 hi Typedef         ctermfg=104     ctermbg=none     cterm=bold
 
 " Diff
-hi DiffAdd         ctermfg=none    ctermbg=none
-hi DiffChange      ctermfg=none    ctermbg=none
-hi DiffDelete      ctermfg=none    ctermbg=none
-hi DiffText        ctermfg=none    ctermbg=none
+hi DiffAdd         ctermfg=15      ctermbg=22
+hi DiffChange      ctermfg=15      ctermbg=18
+hi DiffDelete      ctermfg=88      ctermbg=88
+hi DiffText        ctermfg=11      ctermbg=0        cterm=reverse
 
 " Completion menu
 hi Pmenu           ctermfg=15      ctermbg=235
@@ -111,3 +111,10 @@ hi SpellBad        ctermfg=9       ctermbg=none     cterm=underline
 hi SpellCap        ctermfg=51      ctermbg=none     cterm=underline
 hi SpellLocal      ctermfg=9       ctermbg=none     cterm=underline
 hi SpellRare       ctermfg=51      ctermbg=none     cterm=underline
+
+" HTML Tags
+hi htmlTag         ctermfg=39      ctermbg=none     cterm=bold
+hi htmlEndTag      ctermfg=39      ctermbg=none     cterm=bold
+hi htmlTagName     ctermfg=77      ctermbg=none
+hi htmlTagN        ctermfg=77      ctermbg=none
+hi htmlEvent       ctermfg=15      ctermbg=none

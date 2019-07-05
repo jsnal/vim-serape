@@ -26,6 +26,6 @@ wget https://raw.githubusercontent.com/jsnal/vim-serape/master/colors/serape.vim
 
 #### TODO
 
-* GUI Support
-* Highlight Options
-* Diff
+* GUI support
+* Various version checking
+* Highlight options
