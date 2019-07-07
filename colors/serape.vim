@@ -1,14 +1,23 @@
-set background=dark
-highlight clear
-if exists("syntax_on")
-    syntax reset
+" Serape Color Scheme
+" File:     ~/.vim/colors/serape.vim
+" Author:   Jason Long <jasonlongball@gmail.com>
+" Version:  v0.1
+
+if v:version > 600
+  highlight clear
 endif
+
+if exists("syntax_on")
+  syntax reset
+endif
+
+set background=dark
 let g:colors_name="serape"
 
 " Editor settings
 hi Normal          ctermfg=none    ctermbg=none
 hi Cursor          ctermfg=26      ctermbg=7
-hi CursorLine      ctermfg=235     ctermbg=none
+hi CursorLine      ctermfg=15      ctermbg=none     cterm=underline
 hi LineNr          ctermfg=245     ctermbg=none
 hi CursorLineNR    ctermfg=15      ctermbg=none     cterm=bold
 
@@ -33,14 +42,14 @@ hi IncSearch       ctermfg=12      ctermbg=15
 " Prompt/Status
 hi StatusLine      ctermfg=255     ctermbg=235      cterm=bold
 hi StatusLineNC    ctermfg=245     ctermbg=235      cterm=bold
-hi WildMenu        ctermfg=214     ctermbg=none
+hi WildMenu        ctermfg=32      ctermbg=235      cterm=bold
 hi Question        ctermfg=none    ctermbg=none
 hi Title           ctermfg=15      ctermbg=none     cterm=bold
 hi ModeMsg         ctermfg=15      ctermbg=none     cterm=bold
 hi MoreMsg         ctermfg=15      ctermbg=none     cterm=bold
 
 " Visual aid
-hi MatchParen      ctermfg=15       ctermbg=140
+hi MatchParen      ctermfg=15      ctermbg=140
 hi Visual          ctermfg=none    ctermbg=240
 hi VisualNOS       ctermfg=none    ctermbg=240
 hi NonText         ctermfg=245     ctermbg=none
@@ -62,7 +71,7 @@ hi Number          ctermfg=38      ctermbg=none     cterm=bold
 hi Boolean         ctermfg=32      ctermbg=none
 hi Float           ctermfg=38      ctermbg=none     cterm=bold
 
-hi Identifier      ctermfg=9     ctermbg=none     cterm=bold
+hi Identifier      ctermfg=9       ctermbg=none     cterm=bold
 hi Function        ctermfg=147     ctermbg=none     cterm=bold
 
 " Language construct
