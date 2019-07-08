@@ -36,8 +36,8 @@ hi TabLineSel      ctermfg=253     ctermbg=235
 
 " File Navigation / Searching
 hi Directory       ctermfg=149     ctermbg=none
-hi Search          ctermfg=15      ctermbg=26
-hi IncSearch       ctermfg=12      ctermbg=15
+hi Search          ctermfg=15      ctermbg=202
+hi IncSearch       ctermfg=172     ctermbg=15
 
 " Prompt/Status
 hi StatusLine      ctermfg=255     ctermbg=235      cterm=bold
@@ -57,8 +57,8 @@ hi NonText         ctermfg=245     ctermbg=none
 hi Todo            ctermfg=160     ctermbg=52
 hi Underlined      ctermfg=81      ctermbg=none
 hi Error           ctermfg=15      ctermbg=9
-hi ErrorMsg        ctermfg=none    ctermbg=none
-hi WarningMsg      ctermfg=none    ctermbg=none
+hi ErrorMsg        ctermfg=9       ctermbg=none     cterm=bold
+hi WarningMsg      ctermfg=11      ctermbg=none     cterm=bold
 hi Ignore          ctermfg=0       ctermbg=0
 hi SpecialKey      ctermfg=238     ctermbg=234
 
