@@ -50,8 +50,8 @@ hi MoreMsg         ctermfg=15      ctermbg=none     cterm=bold
 
 " Visual aid
 hi MatchParen      ctermfg=15      ctermbg=140
-hi Visual          ctermfg=none    ctermbg=240
-hi VisualNOS       ctermfg=none    ctermbg=240
+hi Visual          ctermfg=none    ctermbg=none     cterm=reverse
+hi VisualNOS       ctermfg=none    ctermbg=none     cterm=reverse
 hi NonText         ctermfg=245     ctermbg=none
 
 hi Todo            ctermfg=160     ctermbg=52
@@ -127,3 +127,5 @@ hi htmlEndTag      ctermfg=39      ctermbg=none     cterm=bold
 hi htmlTagName     ctermfg=77      ctermbg=none
 hi htmlTagN        ctermfg=77      ctermbg=none
 hi htmlEvent       ctermfg=15      ctermbg=none
+
+" Javascript
