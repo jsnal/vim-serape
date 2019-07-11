@@ -111,7 +111,7 @@ hi DiffText        ctermfg=11      ctermbg=0        cterm=reverse
 
 " Completion menu
 hi Pmenu           ctermfg=15      ctermbg=235
-hi PmenuSel        ctermfg=229     ctermbg=235      cterm=bold
+hi PmenuSel        ctermfg=235     ctermbg=229      cterm=bold
 hi PmenuSbar       ctermfg=229     ctermbg=229
 hi PmenuThumb      ctermfg=none    ctermbg=235
 
@@ -129,3 +129,11 @@ hi htmlTagN        ctermfg=77      ctermbg=none
 hi htmlEvent       ctermfg=15      ctermbg=none
 
 " Javascript
+hi jsFuncName      ctermfg=134     ctermbg=none     cterm=bold
+hi jsThis          ctermfg=214     ctermbg=none     cterm=bold
+
+" CSS
+hi cssClassName    ctermfg=134     ctermbg=none     cterm=bold
+hi cssClassNameDot ctermfg=15      ctermbg=none
+hi cssIdentifier   ctermfg=133     ctermbg=none     cterm=bold
+hi cssBraces       ctermfg=15      ctermbg=none     cterm=bold
