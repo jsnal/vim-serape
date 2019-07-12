@@ -2,12 +2,23 @@
 
 vim-serape is a bright and vivid color scheme
 
+## Supported Languages
+
+* C
+* C++
+* CSS
+* JavaScript
+* HTML
+* Python
+* Makefile
+* vimdiff
+
 ## Install
 
 ### vim-plug
 
 ```
-Plug 'https://github.com/jsnal/vim-serape'
+Plug 'https://github.com/jsnal/vim-serape', { 'tag': 'v0.1' }
 ```
 
 ### Manually

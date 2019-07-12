@@ -19,7 +19,7 @@ hi Normal          ctermfg=none    ctermbg=none
 hi Cursor          ctermfg=26      ctermbg=7
 hi CursorLine      ctermfg=15      ctermbg=none     cterm=underline
 hi LineNr          ctermfg=245     ctermbg=none
-hi CursorLineNR    ctermfg=15      ctermbg=none     cterm=bold
+hi CursorLineNR    ctermfg=184     ctermbg=none     cterm=bold
 
 " Number column
 hi CursorColumn    ctermfg=255     ctermbg=235      cterm=reverse
@@ -137,3 +137,12 @@ hi cssClassName    ctermfg=134     ctermbg=none     cterm=bold
 hi cssClassNameDot ctermfg=15      ctermbg=none
 hi cssIdentifier   ctermfg=133     ctermbg=none     cterm=bold
 hi cssBraces       ctermfg=15      ctermbg=none     cterm=bold
+
+" Python
+hi pythonImport    ctermfg=196     ctermbg=none     cterm=none
+hi pythonEscape    ctermfg=26      ctermbg=none     cterm=bold
+
+" Make
+hi makeTarget      ctermfg=202      ctermbg=none     cterm=bold
+hi makeSpecTarget  ctermfg=11       ctermbg=none     cterm=bold
+hi makeCommands    ctermfg=153      ctermbg=none     cterm=bold
