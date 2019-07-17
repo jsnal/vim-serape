@@ -17,7 +17,7 @@ let g:colors_name="serape"
 " Editor settings
 hi Normal          ctermfg=none    ctermbg=none
 hi Cursor          ctermfg=26      ctermbg=7
-hi CursorLine      ctermfg=15      ctermbg=none     cterm=underline
+hi CursorLine      ctermfg=none    ctermbg=none     cterm=underline
 hi LineNr          ctermfg=245     ctermbg=none
 hi CursorLineNR    ctermfg=184     ctermbg=none     cterm=bold
 
@@ -57,8 +57,8 @@ hi NonText         ctermfg=245     ctermbg=none
 hi Todo            ctermfg=160     ctermbg=52
 hi Underlined      ctermfg=81      ctermbg=none
 hi Error           ctermfg=15      ctermbg=9
-hi ErrorMsg        ctermfg=9       ctermbg=none     cterm=bold
-hi WarningMsg      ctermfg=11      ctermbg=none     cterm=bold
+hi ErrorMsg        ctermfg=9       ctermbg=15       cterm=reverse,bold
+hi WarningMsg      ctermfg=11      ctermbg=none     cterm=reverse,bold
 hi Ignore          ctermfg=0       ctermbg=0
 hi SpecialKey      ctermfg=238     ctermbg=234
 
