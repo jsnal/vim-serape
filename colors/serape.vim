@@ -1,7 +1,7 @@
 " Serape Color Scheme
 " File:     ~/.vim/colors/serape.vim
 " Author:   Jason Long <jasonlongball@gmail.com>
-" Version:  v0.2
+" Version:  v0.2.1
 
 if v:version > 600
   highlight clear
@@ -108,6 +108,13 @@ hi DiffAdd         ctermfg=15      ctermbg=22
 hi DiffChange      ctermfg=15      ctermbg=18
 hi DiffDelete      ctermfg=88      ctermbg=88
 hi DiffText        ctermfg=11      ctermbg=0        cterm=reverse
+
+" Diff files (patches)
+hi DiffAdded       ctermfg=10      ctermbg=none
+hi DiffChanged     ctermfg=18      ctermbg=none
+hi DiffRemoved     ctermfg=9       ctermbg=none
+hi DiffSubname     ctermfg=202     ctermbg=none     cterm=bold
+hi DiffIndexLine   ctermfg=202     ctermbg=none     cterm=bold
 
 " Completion menu
 hi Pmenu           ctermfg=15      ctermbg=235
