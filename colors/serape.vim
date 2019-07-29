@@ -153,3 +153,9 @@ hi pythonEscape    ctermfg=26      ctermbg=none     cterm=bold
 hi makeTarget      ctermfg=202      ctermbg=none     cterm=bold
 hi makeSpecTarget  ctermfg=11       ctermbg=none     cterm=bold
 hi makeCommands    ctermfg=153      ctermbg=none     cterm=bold
+
+" NERD Tree
+hi NERDTreeDir     ctermfg=214      ctermbg=none      cterm=bold
+hi NERDTreeDirSlash ctermfg=15      ctermbg=none      cterm=bold
+hi NERDTreeClosable ctermfg=15      ctermbg=none      cterm=bold
+hi NERDTreeOpenable ctermfg=15      ctermbg=none      cterm=bold
