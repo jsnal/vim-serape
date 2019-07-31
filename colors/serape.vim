@@ -159,3 +159,7 @@ hi NERDTreeDir     ctermfg=214      ctermbg=none      cterm=bold
 hi NERDTreeDirSlash ctermfg=15      ctermbg=none      cterm=bold
 hi NERDTreeClosable ctermfg=15      ctermbg=none      cterm=bold
 hi NERDTreeOpenable ctermfg=15      ctermbg=none      cterm=bold
+
+" Terminal
+hi StatusLineTerm  ctermbg=255      ctermbg=235      cterm=bold
+hi StatusLineTermNC ctermbg=245     ctermbg=235      cterm=bold
