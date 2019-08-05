@@ -25,7 +25,7 @@ hi CursorLineNR    ctermfg=184     ctermbg=none     cterm=bold
 hi CursorColumn    ctermfg=255     ctermbg=235      cterm=reverse
 hi FoldColumn      ctermfg=66      ctermbg=none     cterm=standout
 hi SignColumn      ctermfg=149     ctermbg=74       cterm=standout
-hi Folded          ctermfg=none    ctermbg=235
+hi Folded          ctermfg=245     ctermbg=235
 
 " Window/Tab delimiters
 hi VertSplit       ctermfg=235     ctermbg=235
