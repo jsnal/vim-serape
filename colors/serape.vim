@@ -1,10 +1,12 @@
 " Serape Color Scheme
 " File:     ~/.vim/colors/serape.vim
 " Author:   Jason Long <jasonlongball@gmail.com>
-" Version:  v0.2.1
+" Version:  v0.2.2
 
 if v:version > 600
   highlight clear
+  " a
+  " aa
 endif
 
 if exists("syntax_on")
@@ -23,7 +25,7 @@ hi CursorLineNR    ctermfg=184     ctermbg=none     cterm=bold
 
 " Number column
 hi CursorColumn    ctermfg=255     ctermbg=235      cterm=reverse
-hi FoldColumn      ctermfg=66      ctermbg=none     cterm=standout
+hi FoldColumn      ctermfg=245     ctermbg=235
 hi SignColumn      ctermfg=149     ctermbg=74       cterm=standout
 hi Folded          ctermfg=245     ctermbg=235
 
