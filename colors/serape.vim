@@ -1,12 +1,10 @@
 " Serape Color Scheme
 " File:     ~/.vim/colors/serape.vim
 " Author:   Jason Long <jasonlongball@gmail.com>
-" Version:  v0.2.2
+" Version:  v0.2.3
 
 if v:version > 600
   highlight clear
-  " a
-  " aa
 endif
 
 if exists("syntax_on")
@@ -51,7 +49,7 @@ hi ModeMsg         ctermfg=15      ctermbg=none     cterm=bold
 hi MoreMsg         ctermfg=15      ctermbg=none     cterm=bold
 
 " Visual aid
-hi MatchParen      ctermfg=15      ctermbg=140
+hi MatchParen      ctermfg=none    ctermbg=241      cterm=bold
 hi Visual          ctermfg=none    ctermbg=none     cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none     cterm=reverse
 hi NonText         ctermfg=245     ctermbg=none
