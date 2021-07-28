@@ -54,7 +54,7 @@ hi Visual          ctermfg=none    ctermbg=none     cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none     cterm=reverse
 hi NonText         ctermfg=245     ctermbg=none
 
-hi Todo            ctermfg=160     ctermbg=52
+hi Todo            ctermfg=11     ctermbg=none cterm=bold
 hi Underlined      ctermfg=81      ctermbg=none
 hi Error           ctermfg=15      ctermbg=9
 hi ErrorMsg        ctermfg=9       ctermbg=15       cterm=reverse,bold
@@ -71,8 +71,8 @@ hi Number          ctermfg=38      ctermbg=none     cterm=bold
 hi Boolean         ctermfg=32      ctermbg=none
 hi Float           ctermfg=38      ctermbg=none     cterm=bold
 
-hi Identifier      ctermfg=9       ctermbg=none     cterm=bold
-hi Function        ctermfg=147     ctermbg=none     cterm=bold
+hi Identifier      ctermfg=15      ctermbg=none     cterm=bold
+hi Function        ctermfg=4       ctermbg=none     cterm=none
 
 " Language construct
 hi Statement       ctermfg=202     ctermbg=none     cterm=bold
@@ -98,10 +98,10 @@ hi Define          ctermfg=196     ctermbg=none     cterm=bold
 hi Macro           ctermfg=196     ctermbg=none     cterm=bold
 hi PreCondit       ctermfg=196     ctermbg=none     cterm=bold
 
-hi Type            ctermfg=104     ctermbg=none     cterm=bold
-hi StorageClass    ctermfg=104     ctermbg=none     cterm=bold
-hi Structure       ctermfg=104     ctermbg=none     cterm=bold
-hi Typedef         ctermfg=104     ctermbg=none     cterm=bold
+hi Type            ctermfg=154     ctermbg=none     cterm=none
+hi StorageClass    ctermfg=154     ctermbg=none     cterm=none
+hi Structure       ctermfg=154     ctermbg=none     cterm=none
+hi Typedef         ctermfg=154     ctermbg=none     cterm=none
 
 " Diff
 hi DiffAdd         ctermfg=15      ctermbg=22
