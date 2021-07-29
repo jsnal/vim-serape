@@ -108,6 +108,7 @@ hi DiffAdd         ctermfg=15      ctermbg=22
 hi DiffChange      ctermfg=15      ctermbg=18
 hi DiffDelete      ctermfg=88      ctermbg=88
 hi DiffText        ctermfg=11      ctermbg=0        cterm=reverse
+hi DiffFile        ctermfg=15      ctermbg=none     cterm=bold
 
 " Diff files (patches)
 hi DiffAdded       ctermfg=10      ctermbg=none
@@ -127,6 +128,10 @@ hi SpellBad        ctermfg=9       ctermbg=none     cterm=underline
 hi SpellCap        ctermfg=51      ctermbg=none     cterm=underline
 hi SpellLocal      ctermfg=9       ctermbg=none     cterm=underline
 hi SpellRare       ctermfg=51      ctermbg=none     cterm=underline
+
+" Git Commit
+hi GitCommitSummary ctermfg=4      ctermbg=none     cterm=bold
+hi GitCommitType   ctermfg=15      ctermbg=none
 
 " HTML Tags
 hi htmlTag         ctermfg=39      ctermbg=none     cterm=bold
