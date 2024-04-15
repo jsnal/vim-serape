@@ -4,11 +4,11 @@
 " Version:  v0.2.3
 
 if v:version > 600
-  highlight clear
+    highlight clear
 endif
 
 if exists("syntax_on")
-  syntax reset
+    syntax reset
 endif
 
 set background=dark
@@ -17,15 +17,15 @@ let g:colors_name="serape"
 " Editor settings
 hi Normal          ctermfg=NONE guifg=#ffffff ctermbg=NONE guibg=#000000
 hi Cursor          ctermfg=26   guifg=#005fd7 ctermbg=7    guibg=#c0c0c0
-hi CursorLine      ctermfg=NONE guifg=NONE    ctermbg=NONE guibg=NONE    cterm=underline gui=underline
+hi CursorLine      ctermfg=NONE guifg=NONE    ctermbg=235  guibg=#262626 cterm=reverse
 hi LineNr          ctermfg=245  guifg=#8a8a8a ctermbg=NONE guibg=NONE
 hi CursorLineNR    ctermfg=184  guifg=#d7d700 ctermbg=NONE guibg=NONE    cterm=bold cterm=bold
 
 " Number column
-hi CursorColumn    ctermfg=255 guifg=#eeeeee ctermbg=235 guibg=#262626 cterm=reverse gui=reverse
-hi FoldColumn      ctermfg=245 guifg=#8a8a8a ctermbg=235 guibg=#262626
-hi SignColumn      ctermfg=15  guifg=#ffffff ctermbg=235 guibg=#262626
-hi Folded          ctermfg=245 guifg=#8a8a8a ctermbg=235 guibg=#262626
+hi CursorColumn    ctermfg=NONE guifg=NONE    ctermbg=235 guibg=#262626 cterm=reverse
+hi FoldColumn      ctermfg=245  guifg=#8a8a8a ctermbg=235 guibg=#262626
+hi SignColumn      ctermfg=15   guifg=#ffffff ctermbg=235 guibg=#262626
+hi Folded          ctermfg=245  guifg=#8a8a8a ctermbg=235 guibg=#262626
 
 " Window/Tab delimiters
 hi VertSplit       ctermfg=235  guifg=#262626 ctermbg=235 guibg=#262626
@@ -72,7 +72,7 @@ hi Boolean         ctermfg=32 guifg=#0087d7 ctermbg=NONE guibg=NONE
 hi Float           ctermfg=38 guifg=#00afd7 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 
 hi Identifier      ctermfg=15 guifg=#ffffff ctermbg=NONE guibg=NONE cterm=bold gui=bold
-hi Function        ctermfg=12 guifg=#005fff ctermbg=NONE guibg=NONE cterm=NONE gui=NONE
+hi Function        ctermfg=12 guifg=#005fff ctermbg=NONE guibg=NONE
 
 " Language construct
 hi Statement       ctermfg=202 guifg=#ff5f00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
