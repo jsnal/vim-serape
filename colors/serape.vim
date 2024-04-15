@@ -1,7 +1,7 @@
 " Serape Color Scheme
 " File:     ~/.vim/colors/serape.vim
 " Author:   Jason Long <jasonlongball@gmail.com>
-" Version:  v0.2.3
+" Version:  v0.3.0
 
 if v:version > 600
     highlight clear
