@@ -18,7 +18,7 @@ vim-serape is a bright and vivid color scheme
 ### vim-plug
 
 ```
-Plug 'https://github.com/jsnal/vim-serape', { 'tag': 'v0.2.2' }
+Plug 'https://github.com/jsnal/vim-serape', { 'tag': '<LATEST-VERSION>' }
 ```
 
 ### Manually
@@ -35,8 +35,3 @@ wget https://raw.githubusercontent.com/jsnal/vim-serape/master/colors/serape.vim
 
 `:colorscheme serape`
 
-#### TODO
-
-* GUI support
-* Various version checking
-* Highlight options
